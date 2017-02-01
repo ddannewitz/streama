@@ -84,6 +84,11 @@ class DefaultDataService {
             description: 'Should the First-Time login info (admin/admin) be shown in the login screen?',
             settingsType: 'boolean'
         ],
+        [
+            settingsKey: 'Custom Logo Path',
+            description: 'Enter a Path to another logo than the default logo to change it.',
+            settingsType: 'string'
+        ],
 //        [
 //            settingsKey: 'Remove Source After Convert',
 //            value: 'yes',
